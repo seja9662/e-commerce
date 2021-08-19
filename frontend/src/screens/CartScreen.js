@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 // Components
 import CartItem from "../components/CartItem";
 
-// Actions
+// Actions adding and removing from cart
 import { addToCart, removeFromCart } from "../redux/actions/cartActions";
 
 const CartScreen = () => {
